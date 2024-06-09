@@ -21,11 +21,12 @@ if meal_type == "veg":
         print("Fruit salad")
     else:
         print("Veg cake")
-elif meal_type == "non-veg":
+else:
     if dietary_preference == "sugar-free":
         print("Sugar-free ice cream")
     else:
         print("Chocolate brownie")
+        
 
 # and that's it for this example!
 
